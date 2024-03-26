@@ -1,0 +1,17 @@
+[package]
+name = "currently_logged_in_user"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.windows]
+version = "0.52.0"
+features = [
+    "System",
+    "Foundation",
+    "Win32",
+    "Win32_System",
+    "Win32_System_WindowsProgramming",
+    "Win32_Foundation"
+]
